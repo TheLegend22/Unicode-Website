@@ -64,15 +64,11 @@ body
 	margin-top: 25vh
 }
 
-@media(max-width:991px)
+@media(max-width:767px)
 {
-	
-	.header .center-vh {
-	margin-top: 150px;
-}
 	.header 
 	{
-	height: 1200px;
+	height: 1300px;
 	}
 
 }
@@ -84,6 +80,12 @@ body
 	color: #9d9d9d;
 }
 
+@media(max-width:991px)
+{
+	.header h1{
+		font-size: 50px;
+	}
+}
 .header h1 span 
 {
 	color: chartreuse;
@@ -115,11 +117,25 @@ body
 	margin: 20px 0;
 }
 
+@media(max-width:991px){
+	.header button{
+		margin-bottom: 60px;
+	}
+}
+
 .header form 
 {
 	width: 360px;
 	background-color: rgba(157, 157, 157, 0.35);
 	border-radius: 10px;
+}
+
+@media(max-width:991px){
+	.header form{
+		width: 90%;
+		margin-bottom: 40px;
+
+	} 
 }
 
 .header form h2
@@ -160,7 +176,6 @@ body
 	font-size: 20px;
 }
 
-
 /* Start Tabs Section */
 
 .tabs-section {
@@ -188,7 +203,7 @@ body
 	
 	.tabs-section .tab-switch li 
 {
-	width: 32%;
+	width: 45%;
 	height: 150px;
 	line-height: 150px;
 	font-size: 13px; 
@@ -245,7 +260,7 @@ body
 @media(max-width:991px){
 	.tabs-section .tabs-content button{
 		width: 100%;
-		margin-bottom: 0;
+		margin-bottom: 30px;
 	}
 }
 /* Start Sublist Section */
@@ -366,7 +381,7 @@ body
 .awesome h2
 {
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 .awesome .awesome-par {
@@ -575,7 +590,10 @@ body
 	height: 100vh;
 	position: relative;
 	background-color: #FFF;
-	max-height: 450px;
+	max-height: 500px;
+}
+
+@media(max-width:991px){
 }
 .stylish .overlay
 {
